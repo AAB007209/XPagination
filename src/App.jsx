@@ -112,15 +112,15 @@ function App() {
       </div>
       {/* Pagination Controls added below */}
       <div className="pagination">
-        <button onClick={goToPreviousPage} disabled={currentPage === 1}>
+        <button onClick={goToPreviousPage}>
           Previous
         </button>
         <span className="pageNumber">{currentPage}</span>
-        <button onClick={goToNextPage} disabled={currentPage === totalPages}>
+        <button onClick={goToNextPage}>
           Next
         </button>
       </div>
-    </div>
+    </div >
   );
 }
 
