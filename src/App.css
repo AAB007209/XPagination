@@ -1,0 +1,62 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.Table {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+table {
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    text-align: left;
+    border-bottom: 4px solid #16a085;
+}
+
+thead th {
+    padding: 12px;
+    background-color: #16a085;
+    color: #fff;
+}
+
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pagination button {
+    background-color: #16a085;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination span {
+    margin: 0 10px;
+}
+
+.pageNumber {
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
